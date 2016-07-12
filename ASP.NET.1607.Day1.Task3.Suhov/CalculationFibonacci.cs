@@ -9,7 +9,7 @@ namespace ASP.NET._1607.Day1.Task3.Suhov
     public static class CalculationFibonacci
     {
         /// <summary>Calculates n-number in Fibonacci sequence</summary> 
-        /// <param name="value">Number which should be calculated</param> 
+        /// <param name="value">Number which should be calculated </param> 
         /// <returns>The number <paramref name="n"/> in Fibonaccy sequence is <paramref name="value"/></returns> 
         public static int Calculate(int n)
         {
