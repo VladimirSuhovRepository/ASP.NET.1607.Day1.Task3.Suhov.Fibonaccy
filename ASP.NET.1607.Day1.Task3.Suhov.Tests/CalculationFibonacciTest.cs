@@ -20,5 +20,19 @@ namespace ASP.NET._1607.Day1.Task3.Suhov.Tests
                 i++;
             });
         }
+        [TestMethod]
+        public void TestCalculateYieldValues()
+        {
+            // Arrange
+            var arrayFibonacci = new List<int>() { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377 };
+            // Act
+            var fibonacci = new FibonacciYield(arrayFibonacci.Count);
+            // Assert
+            int i = 0;
+            foreach(var item in fibonacci) {
+                Assert.AreEqual(item, arrayFibonacci[i]);
+                i++;
+            };
+        }
     }
 }
