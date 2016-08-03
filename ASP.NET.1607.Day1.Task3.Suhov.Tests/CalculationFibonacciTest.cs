@@ -30,7 +30,9 @@ namespace ASP.NET._1607.Day1.Task3.Suhov.Tests
             // Assert
             int i = 0;
             foreach(var item in fibonacci) {
-                Assert.AreEqual(item, arrayFibonacci[i]);
+                var ii = item;
+                var ii1 = arrayFibonacci[i];
+                Assert.AreEqual(ii, ii1);
                 i++;
             };
         }
